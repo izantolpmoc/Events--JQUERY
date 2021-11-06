@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/evenements.css">
+    <title>Evenements jQuery</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <div id="info">Je ne fais rien....</div>
+        <br>
+        <br>
+        <fieldset>
+            <p class="titre">1 / MOUSEOVER</p>
+            <div class="zone1">Jacquouilles</div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <p class="titre">2 / MOUSEMOVE - BOUGER SUR LA ZONE</p>
+            <div class="zone2">Zone 2</div>
+        </fieldset>
+
+        <!------------------------------>
+
+        <fieldset>
+            <p class="titre">3 / MOUSEOUT - QUITTER LE SURVOL DE LA ZONE APRES AVOIR SURVOLER LA ZONE 3</p>
+            <div class="zone3">Zone 3</div>
+        </fieldset>
+
+        <!----------------------------->
+
+        <fieldset>
+            <p class="titre">4 / MOUSEENTER + MOUSELEAVE - ENTRER ET SORTIR LA SOURIS D'UNE ZONE</p>
+            <div class="zone4">Zone 4</div>
+        </fieldset>
+
+
+
+        <!----------- EVENEMENTS CONCERNANT LE CLIC ----------------->
+
+        <fieldset>
+            <p class="titre">5 / MOUSEUP - PRESSEZ PENDANT QUELQUES SECONDES LE CLIC GAUCHE PUIS LE RELACHER SUR LA ZONE 5</p>
+            <div class="zone5">Zone 5</div>
+        </fieldset>
+
+        <!----------------------------->
+
+        <fieldset>
+            <p class="titre">6 / MOUSEDOWN ENFONCER LE CLIC SUR LA ZONE 6</p>
+            <div class="zone6">Zone 6</div>
+        </fieldset>
+
+        <!---------------------------->
+
+        <fieldset>
+            <p class="titre">7 / CLIC - CLIQUEZ SUR LA ZONE 7</p>
+            <div class="zone7">Zone 7</div>
+        </fieldset>
+
+        <!----------------------------->
+
+        <fieldset>
+            <p class="titre">8 / DOUBLECLIC DOUBLECLIQUEZ SUR LA ZONE</p>
+            <div class="zone8">Zone 8</div>
+        </fieldset>
+
+        <!----------------------------->
+
+        <form method="post">
+            <fieldset>
+                <p class="titre">9 / BLUR - CLIQUEZ AILLEURS APRES AVOIR CLIQUE SUR UN ELEMENT</p>
+                <input type="text" name="text" placeholder="prenom - zone 9" class="zone9">
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <p class="titre">10 / CHANGE - SELECTIONNER UNE AUTRE OPTION</p>
+                <select name="pays" class="zone10">Zone 10 change, Choisir une option différente
+                    <option disabled selected>
+                        <option>France</option>
+                        <option>Italie</option>
+                        <option>Espagne</option>
+                    </option>
+                </select>
+                <br>
+            </fieldset>
+    </main>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/evenements.js"></script>
+</body>
+</html>
